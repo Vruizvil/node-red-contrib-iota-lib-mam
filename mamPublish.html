@@ -1,0 +1,34 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mamPublish',{
+        category: 'function',
+        color: '#f6bbcf',
+        defaults: {
+            iotaNode: {value: "https://nodes.devnet.thetangle.org:443"},
+            mode: {value: 'public'},
+            secretKey: {value: null}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "iota.png",
+        label: function() {
+            return this.name||"mamPublish";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="mamPublish">
+    <div class="form-row">
+      <label for="node-function-iotaNode"><i class="icon-tag"></i> MAM node</label>
+      <input type="text" id="node-input-iotaNode">
+      <br>
+      <label for="node-function-root"><i class="icon-tag"></i> MAM mode</label>
+      <input type="text" id="node-input-mode">
+      <br>
+      <label for="node-function-key"><i class="icon-tag"></i> MAM secret key (restricted mode) </label>
+      <input type="text" id="node-input-secret">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="mamPublish">
+    <p>MAM publish node</p>
+</script>
