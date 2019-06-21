@@ -1,7 +1,7 @@
 # Node-red IOTA MAM module
 
 This is fork from https://www.npmjs.com/package/node-red-contrib-iota-mam
-Original Release 4.2.1 https://gitlab.com/ouya/node-red-contrib-iota-mam.git
+Original Release 4.1.2 https://gitlab.com/ouya/node-red-contrib-iota-mam.git
 
 ## Requirements
 
