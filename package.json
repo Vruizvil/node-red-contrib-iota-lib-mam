@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-iota-mam",
-  "version": "4.1.1",
+  "name": "node-red-contrib-iota-lib-mam",
+  "version": "0.0.9",
   "description": "",
   "main": "mamFetch.js",
   "scripts": {
@@ -20,13 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/ouya/node-red-contrib-iota-mam.git"
+    "url": "https://github.com/Vruizvil/node-red-contrib-iota-lib-mam.git"
   },
   "keywords": [
     "node-red",
     "mam",
-    "iota",
-    "sensortag",
-    "sensornode"
+    "iota"
   ]
 }

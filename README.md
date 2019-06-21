@@ -21,7 +21,7 @@ npm install node-red-dashboard
 
 Run the following command in your NODE-RED install
 ```
-npm install node-red-contrib-iota-mam
+npm install node-red-contrib-iota-lib-mam
 ```
 
 # Usage
@@ -33,14 +33,6 @@ and
 **MAM fetch** (=download data from tangle)
 
 Drag MAM function node into a flow and wire it accordingly
-
-## CONFIG - At first use the Node-red sample file included !!!
-
-Find included in the root directory a flow sample file called flows_Air.json
-It provides you with an initial config for ROOT (mamFetch) and a devnet IOTA node.
-
-Also you can switch to the newly added node-red dashboard to publish/fetch data
-and see a live visualization.
 
 If you have any issues regarding this module, please test with this file and give a clear issue description. Thank you!
 
@@ -58,9 +50,6 @@ This should hold a non-encrypted (public) data packet sequence. (as of 18 april 
 
 
 ## MAM publish
-
-Deploy a sensorTag as input data source.
-(Please report an issue https://gitlab.com/ouya/node-red-contrib-iota-mam/issues if you encounter problems with other sensors. We are looking to support all general sensors in the near future)
 
 wire its output to
 -> mamPublish node
